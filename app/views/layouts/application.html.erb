@@ -5,7 +5,7 @@
   <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %> 
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %> 
   <%= csrf_meta_tags %> 
-  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="bootstrap-responsive.css" rel="stylesheet">
 </head>
   <body class='<%= controller.controller_name %>'>
   <div class="navbar navbar-inverse navbar-fixed-top">
@@ -47,6 +47,19 @@
 
 	<!-- Header div-->
 	<div class="jumbotron"></div>
+    <script src="jquery.js"></script>
+    <script src="bootstrap-transition.js"></script>
+    <script src="bootstrap-alert.js"></script>
+    <script src="bootstrap-modal.js"></script>
+    <script src="bootstrap-dropdown.js"></script>
+    <script src="bootstrap-scrollspy.js"></script>
+    <script src="bootstrap-tab.js"></script>
+    <script src="bootstrap-tooltip.js"></script>
+    <script src="bootstrap-popover.js"></script>
+    <script src="bootstrap-button.js"></script>
+    <script src="bootstrap-collapse.js"></script>
+    <script src="bootstrap-carousel.js"></script>
+    <script src="bootstrap-typeahead.js"></script>
 	<%= yield %>
 
 </body>
